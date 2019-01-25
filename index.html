@@ -11,6 +11,27 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
     <link rel="shortcut icon" href="/ico/favicon.ico" type="image/x-icon" />
+<script type='text/javascript'>
+//some default pre init
+var Countly = Countly || {};
+Countly.q = Countly.q || [];
+
+//provide countly initialization parameters
+Countly.app_key = 'd8fa39a713559c16686eb28447dd579d374436a1';
+Countly.url = 'https://try.count.ly';
+
+
+
+//load countly script asynchronously
+(function() {
+   var cly = document.createElement('script'); cly.type = 'text/javascript';
+   cly.async = true;
+   //enter url of script here
+   cly.src = 'https://try.count.ly/sdk/web/countly.min.js';
+   cly.onload = function(){Countly.init()};
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+})();
+</script>
   </head>
   <body spellcheck="false">
     <div id="content">
