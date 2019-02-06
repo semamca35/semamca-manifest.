@@ -74,7 +74,7 @@ function showSource(){;
     //but this does not do what we want
     source = source.replace(/</g, "&lt;").replace(/>/g, "&gt;");
     //now we add <pre> tags to preserve whitespace
-    source = "<pre style='color: lightgoldenrodyellow;background-color: cadetblue;'>"+source+"</pre>";
+    source = "<pre style='color: slategrey;font-size: 75%;'>"+source+"</pre>";
     //now open the window and set the source as the content
     sourceWindow = window.open('','Source of page','fullscreen=yes,resizable=0,scrollbars=0,toolbar=0,menubar=0,location=0,titlebar=0');
     sourceWindow.document.write(source);
