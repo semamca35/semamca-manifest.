@@ -90,6 +90,10 @@ Live code performansı ile
 
 * Samuel Reed'e
 
+Sabrı için
+----------
+* Serkan Çeken'e
+
 Teşekkür Ederiz...
 ==================
 
@@ -110,7 +114,7 @@ Open Source
 * Imgur-to-GFYcat
 * backbone.queryRouter
 * backbone.layoutManager
-* STRML.net
+* STRMLnet
 * Mongoose-Filter-Denormalize
 
 
